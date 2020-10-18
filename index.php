@@ -1,13 +1,8 @@
 <?php
-class Employee {
-    public $id;
-    public $name;
-    
-    public function __construct(int $id, string $name) {
-        $this->id = $id;
-        $this->name = $name;
-    }
-}
+
+require_once 'autoload.php';
+
+use App\Models\Employee;
 
 $employees = [
     new Employee(101, "Ahmad Fasehan"),
