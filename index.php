@@ -13,5 +13,5 @@ $employees = [
 ];
 
 foreach ($employees as $employee) {
-    echo "{$employee->name} \n";
+    echo $employee->name . " \n";
 }
